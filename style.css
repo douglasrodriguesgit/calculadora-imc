@@ -1,0 +1,71 @@
+body,
+input,
+label,
+section,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #ffae00;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 400px;
+  height: 550px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.header {
+  color: #111;
+  font: 600 2rem/1.2 "IBM Plex Mono", sans-serif;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+label {
+  padding: 20px;
+}
+
+.input {
+  margin: auto;
+  color: #111;
+  font: 600 1rem/0.825 "roboto", sans-serif;
+}
+
+.container input {
+  height: 40px;
+  font: 600 1rem/0.825 "roboto", sans-serif;
+  color: #000;
+  border-radius: 4px;
+  border: none;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+.btn {
+  background: #111;
+  width: 300px;
+  height: 40px;
+  margin: 20px auto;
+  font: 600 1rem/0.825 "IBM Plex Mono", sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffae00;
+}
+
+.resultado {
+  width: 300px;
+  background-color: #111;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 4px;
+  color: #ffae00;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
